@@ -25,6 +25,7 @@ end
 
 local function InstallSetHooks()
     SecurePostHook(ZO_ItemSetCollectionPieceTile_Keyboard, "LayoutPlatform", function(tileObj)
+        tileObj._sbpIsNew = tileObj.itemSetCollectionPieceData ~= nil and tileObj.itemSetCollectionPieceData:IsNew() or false
         RegisterTile(SOURCE.SETS, tileObj)
         Addon.Overlay.ApplyOverlayToControl(tileObj, SOURCE.SETS)
     end)
@@ -174,9 +175,18 @@ local function InstallLoreHooks()
 end
 
 -- ── Achievements (ZO_Achievement instances) ───────────────────────────────────
+-- PopupAchievement (ACHIEVEMENTS.popup, used for the chat-link achievement
+-- popup) subclasses Achievement and calls Achievement.Show/Reset on itself,
+-- so it runs through this same SecurePostHook. That popup is a fixed-size
+-- floating window, not a tree/panel tile, so our overlay must never be
+-- applied to it (see AGENTS.md).
+local function IsAchievementPopup(self)
+    return ACHIEVEMENTS ~= nil and self == ACHIEVEMENTS.popup
+end
 
 local function InstallAchievementHooks()
     SecurePostHook(Achievement, "Show", function(self, achievementId)
+        if IsAchievementPopup(self) then return end
         local control = self:GetControl()
         if not control then return end
         local tileObj = control._sbpAchievementTile
@@ -191,6 +201,7 @@ local function InstallAchievementHooks()
     end)
 
     SecurePostHook(Achievement, "Reset", function(self)
+        if IsAchievementPopup(self) then return end
         local control = self:GetControl()
         local tileObj = control and control._sbpAchievementTile
         if not tileObj then return end
@@ -232,6 +243,7 @@ local function InstallAntiquityFragmentIconHook()
             control._sbpFragmentWrapper = wrapper
         end
         wrapper._sbpIsMissing = not tileData:IsComplete()
+        wrapper._sbpIsNew = tileData:GetAntiquitySetData() ~= nil and tileData:HasNewLead()
         RegisterTile(SOURCE.ANTIQUITY_FRAGMENTS, wrapper)
         Addon.Overlay.ApplyOverlayToControl(wrapper, SOURCE.ANTIQUITY_FRAGMENTS)
     end)
@@ -247,6 +259,7 @@ local function InstallAntiquityHooks()
         else
             tileObj._sbpIsMissing = not tileData:HasDiscovered()
         end
+        tileObj._sbpIsNew = tileData:HasNewLead()
         RegisterTile(SOURCE.ANTIQUITIES, tileObj)
         Addon.Overlay.ApplyOverlayToControl(tileObj, SOURCE.ANTIQUITIES)
     end

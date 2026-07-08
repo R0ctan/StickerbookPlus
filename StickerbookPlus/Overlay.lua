@@ -123,9 +123,14 @@ end
 
 -- ── Status icon (ESO new-item icon) ───────────────────────────────────────────
 
+-- Antiquities (main tile and fragment icons) name this field "status" instead
+-- of "statusMultiIcon" (see AGENTS.md); both are checked so hideNewIcon works
+-- for every tracked area.
 local function RefreshStatusIcon(tileObj, isMarkedNew, db)
     local statusIcon = tileObj.statusMultiIcon
         or (tileObj.control and tileObj.control.statusMultiIcon)
+        or tileObj.status
+        or (tileObj.control and tileObj.control.status)
     if not statusIcon then return end
     local hasIcons = statusIcon.iconData and #statusIcon.iconData > 0
     if isMarkedNew and db and db.hideNewIcon then
@@ -148,6 +153,7 @@ function Overlay.ShouldMarkNew(tileObj, source)
     if source == SOURCE.LORE         and not db.enableLore         then return false end
     if source == SOURCE.ACHIEVEMENTS and not db.enableAchievements then return false end
     if source == SOURCE.ANTIQUITIES  and not db.enableAntiquities  then return false end
+    if source == SOURCE.ANTIQUITY_FRAGMENTS and not db.enableAntiquities then return false end
 
     if tileObj._sbpIsNew then return true end
 
