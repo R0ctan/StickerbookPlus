@@ -1,0 +1,83 @@
+[CENTER][SIZE="6"][b]Stickerbook+[/b][/SIZE][/CENTER]
+[CENTER][SIZE="3"]Stop scrolling past hundreds of things you already own to find the one you don't.[/SIZE][/CENTER]
+
+[SIZE="3"]Stickerbook+ colors your category trees by completion, marks new and missing entries right on the tile, and sorts what's incomplete to the top — across the Item Sets Book, Outfit Styles, Collections, Lore Library, Achievements, and the Antiquities Codex.[/SIZE]
+
+Every marker, color, and sorting option below is fully configurable and can be toggled per area — see the [b]Settings[/b] section near the bottom.
+
+[SIZE="4"][b]Item Sets Book[/b][/SIZE]
+[IMG]PASTE_IMAGE_1_URL_HERE[/IMG]
+[highlight]1[/highlight] Tree colored by progress — categories turn green once every piece inside is unlocked, with a missing count like "Jolting Arms (1)" the instant something's still out there.
+[highlight]2[/highlight] New & missing tiles marked — a bright green frame flags a piece you just unlocked; a red background flags one you don't have yet — both configurable, on by default.
+[highlight]3[/highlight] One-click "Clear New Status" — dismiss every new marker on the current page in one click instead of hovering each tile individually.
+
+[SIZE="4"][b]Outfit Styles[/b][/SIZE]
+[IMG]PASTE_IMAGE_2_URL_HERE[/IMG]
+[highlight]1[/highlight] Missing styles sorted first — locked styles jump to the front of the grid and get a red overlay, instead of being scattered between ones you already own.
+[highlight]2[/highlight] New style highlighted — a bright green frame marks a style you just unlocked, so it doesn't get lost among dozens of others.
+[highlight]3[/highlight] One-click "Clear New Status" — dismiss every new marker on the current page in one click.
+[highlight]4[/highlight] Crown Store tag — a small corner symbol marks styles that came from the Crown Store, visible even without hovering.
+
+[SIZE="4"][b]Antiquities Codex[/b][/SIZE]
+[IMG]PASTE_IMAGE_3_URL_HERE[/IMG]
+[highlight]1[/highlight] Tree colored & counted — categories turn green as fragments are found, with counts like "Glenumbra (4/25)". Choose whether coloring is based on Found or Codex progress.
+[highlight]2[/highlight] Missing entries sorted first — undiscovered antiquities move to the top of the list and get a red overlay, instead of hiding among entries you already found.
+[highlight]3[/highlight] Missing fragments marked — for multi-piece antiquities, each fragment icon shows individually whether it's still missing.
+
+[SIZE="4"][b]Achievements[/b][/SIZE]
+[IMG]PASTE_IMAGE_4_URL_HERE[/IMG]
+[highlight]1[/highlight] Tree colored & counted — zones turn green once every achievement inside is done, grey while still in progress, with a suffix showing missing achievements, missing points, or both.
+[highlight]2[/highlight] Missing achievements sorted first — incomplete entries move to the top of the list, with a red overlay marking them at a glance.
+[highlight]3[/highlight] Chain stages colored by progress — for multi-stage achievements, each point value (5 / 10 / 15 …) is colored so you see the current stage without opening the tooltip.
+
+[SIZE="4"][b]Lore Library[/b][/SIZE]
+[IMG]PASTE_IMAGE_5_URL_HERE[/IMG]
+[highlight]1[/highlight] Collections colored & counted — every collection turns green once fully read, with a missing count right in the tree, like "Crafting Books (1)".
+[highlight]2[/highlight] Total missing counter — the overview at the top adds a running "(196 missing)" total across your entire library.
+[highlight]3[/highlight] Missing books sorted first — unread books move to the top with a red overlay, so you don't have to scroll past hundreds of books you've already read.
+
+[SIZE="4"][b]Collections[/b][/SIZE]
+[IMG]PASTE_IMAGE_6_URL_HERE[/IMG]
+[highlight]1[/highlight] Tree colored & counted — collections turn green once complete, with a missing count for the rest, like "Onyx Indrik (2)".
+[highlight]2[/highlight] Missing items marked — a red overlay flags collectibles you haven't unlocked yet, right on the tile.
+
+[SIZE="4"][b]Settings[/b][/SIZE]
+[IMG]PASTE_IMAGE_7_URL_HERE[/IMG]
+[highlight]1[/highlight] Active Areas — turn Stickerbook+ on or off per area (Item Sets, Outfit Styles, Collections, Lore Library, Achievements, Antiquities), independent of each other.
+[highlight]2[/highlight] New Marker — customize the border and background color, thickness, and whether ESO's native "new" icon is hidden.
+[highlight]3[/highlight] Missing Marker — customize the background color for missing items, and choose per area whether it's shown at all.
+[highlight]4[/highlight] Tree: Coloring & Counting per Area — per-area switches for tree coloring and missing-count suffixes (categories, subcategories, chain stages, and more).
+[highlight]5[/highlight] Tree: Color Levels — set the four shared colors used everywhere: complete, partial, missing, and selected.
+[highlight]6[/highlight] Sorting — toggle "missing first" sorting independently for each of the five supported areas.
+[highlight]7[/highlight] Dismiss Markers — show or hide the "Clear New Status" button, and pick its label text.
+[highlight]8[/highlight] Advanced — chat messages, internal ID display in tooltips, and Crown Store tag settings.
+
+[SIZE="4"][b]All features at a glance[/b][/SIZE]
+- Missing piece counts and completion coloring in the category tree for all six areas
+- Set header coloring by completion status in the Item Sets Book
+- Configurable overlays for missing and new items in the Item Sets Book, Outfit Styles, Collections, and Lore Library
+- Configurable overlay for missing achievements, plus chain-stage coloring for multi-stage achievements
+- Configurable overlay for missing antiquities and sets in the Antiquities Codex, including individually marked fragment icons within a set tile
+- Antiquities tree coloring based on either "Found" or Codex/lore progress
+- "Missing first" sorting for Lore Library book lists, Antiquities Codex tiles, Achievements lists, Outfit Style tiles, and Item Set piece tiles
+- Crown Store tag on collectible tiles for Crown-sourced items (Item Sets Book, Outfit Styles, Collections)
+- One-click button to dismiss new status for all new items on the current Item Sets Book and Outfit Styles category page
+- Long tree entry names truncated with a tooltip instead of wrapping
+- Multi-language support: English, German, French, Spanish, Russian, and Simplified Chinese
+
+[SIZE="4"][b]Slash command[/b][/SIZE]
+/sbp
+- /sbp on — enable the addon
+- /sbp off — disable the addon
+- /sbp test item [itemId] — mark a specific Item Sets piece as new for testing
+- /sbp test style [collectibleId] — mark a specific Outfit Style as new for testing
+- /sbp test collection [collectibleId] — mark a specific Collections item as new for testing
+
+[SIZE="4"][b]Required library[/b][/SIZE]
+- LibAddonMenu-2.0 r43 or newer
+
+[SIZE="4"][b]Author[/b][/SIZE]
+R0ctan
+
+[SIZE="4"][b]Credits[/b][/SIZE]
+AI-assisted development by Auralith AI

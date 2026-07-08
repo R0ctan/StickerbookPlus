@@ -1,0 +1,35 @@
+# Release output
+release/
+
+# Local documentation material
+docs/local/
+AGENTS.md
+
+# Claude Code local config
+.claude/
+
+# Local/editor files
+.vscode/*
+!.vscode/tasks.json
+.idea/
+*.code-workspace
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ESO SavedVariables must never be committed
+SavedVariables/
+*.bak
+*.tmp
+
+# Logs
+*.log
+
+# Package junk
+__MACOSX/
+
+# Temporary directory listings
+struct.txt
+

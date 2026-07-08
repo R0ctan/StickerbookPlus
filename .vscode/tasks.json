@@ -1,0 +1,48 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "ESO: Validate Stickerbook+",
+      "type": "shell",
+      "command": "powershell",
+      "args": [
+        "-ExecutionPolicy",
+        "Bypass",
+        "-NoProfile",
+        "-File",
+        "${workspaceFolder}/tools/validate.ps1"
+      ],
+      "group": "test",
+      "problemMatcher": []
+    },
+    {
+      "label": "ESO: Build Stickerbook+ ZIP",
+      "type": "shell",
+      "command": "powershell",
+      "args": [
+        "-ExecutionPolicy",
+        "Bypass",
+        "-NoProfile",
+        "-File",
+        "${workspaceFolder}/tools/build.ps1"
+      ],
+      "group": "build",
+      "problemMatcher": []
+    },
+    {
+      "label": "ESO: Deploy Stickerbook+",
+      "type": "shell",
+      "command": "powershell",
+      "args": [
+        "-ExecutionPolicy",
+        "Bypass",
+        "-NoProfile",
+        "-File",
+        "${workspaceFolder}/tools/deploy.ps1"
+      ],
+      "group": "build",
+      "problemMatcher": []
+    }
+  ]
+}
+
