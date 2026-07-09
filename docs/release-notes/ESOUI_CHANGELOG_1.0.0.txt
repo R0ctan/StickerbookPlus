@@ -1,0 +1,22 @@
+[size=4][b]Version 1.0.0[/b][/size]
+
+First stable release of Stickerbook+.
+
+See at a glance what you are still missing — and what is newly added — across the Item Sets Book, Outfit Styles, Collections, Lore Library, Achievements, and the Antiquities Codex.
+
+[size=3][b]See what's missing:[/b][/size]
+- The category tree shows how many pieces you are missing in each category, with completion coloring — in all six areas.
+- Missing items are visually marked: in the Item Sets Book, Outfit Styles, Collections, Lore Library, Achievements, and the Antiquities Codex (down to individual fragment icons within a set).
+- Set headers in the Item Sets Book are colored by completion status.
+- Missing and incomplete entries are sorted to the top: lore book lists, antiquity tiles, achievement lists, outfit style tiles, and set piece tiles.
+
+[size=3][b]See what's new:[/b][/size]
+- Newly unlocked items are highlighted as new.
+- One click dismisses the "new" status for a whole category page (Item Sets Book and Outfit Styles).
+- Optionally hide ESO's own "new" icon and use only the Stickerbook+ highlight.
+
+[size=3][b]Extras:[/b][/size]
+- Crown Store tag on tiles for Crown-sourced items (Item Sets Book, Outfit Styles, Collections).
+- Long category names are truncated with a tooltip instead of wrapping.
+- Everything is optional and configurable in the in-game settings.
+- Languages: English, German, French, Spanish, Russian, and Simplified Chinese.

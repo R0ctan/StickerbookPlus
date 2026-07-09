@@ -6,10 +6,10 @@ Bugfix release.
 
 ### Fixes
 
-- Achievements: clicking an achievement link in chat no longer applies our overlay to the resulting popup window
-- Item Sets: newly unlocked set pieces are now correctly colored as new (the real "new" status was never being read)
-- Antiquities: newly discovered leads are now correctly colored as new, both on the antiquity/set tile and on individual fragment icons within a set tile
-- "Hide ESO's new icon" now also works for Antiquities tiles and fragment icons, not just Item Sets, Outfit Styles, and Collections
+- Achievements: clicking an achievement link in chat no longer applies our overlay to the resulting popup window (the popup shares a hook point with the real achievement tiles)
+- Item Sets: newly unlocked set pieces are now correctly colored as new (the game's real "new" status was never being read)
+- Antiquities: newly discovered leads are now correctly colored as new, both on the antiquity/set tile and on individual fragment icons within a set tile (same root cause as the Item Sets fix)
+- "Hide ESO's new icon" now also works for Antiquities tiles and fragment icons, not just Item Sets, Outfit Styles, and Collections (their status icon uses a different internal control name than the other areas)
 
 ## Version 1.0.0
 
