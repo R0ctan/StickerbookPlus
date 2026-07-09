@@ -78,11 +78,20 @@
 - /sbp test style [collectibleId] — mark a specific Outfit Style as new for testing
 - /sbp test collection [collectibleId] — mark a specific Collections item as new for testing[/SIZE]
 
-[b]Required library[/b]
-[SIZE="2"]- LibAddonMenu-2.0 r43 or newer[/SIZE]
+[SIZE="2"][b]Required library[/b]
+- LibAddonMenu-2.0 r43 or newer[/SIZE]
 
-[b]Author[/b]
-[SIZE="2"]R0ctan[/SIZE]
+[SIZE="2"][b]Author[/b]
+R0ctan[/SIZE]
 
-[b]Credits[/b]
-[SIZE="2"]AI-assisted development by Auralith AI[/SIZE]
+[SIZE="2"][b]Credits[/b]
+AI-assisted development by Auralith AI[/SIZE]
+
+[SIZE="2"][b]Optional In-Game Support[/b][/SIZE]
+
+[SIZE="2"]Stickerbook+ is completely free to use.
+
+If you enjoy the addon and it helps you with your own collecting, I’d be very happy about a small in-game gold donation as a little thank-you. No pressure, no obligation — just if you like the addon and want to support my own journey to complete my Stickerbook as well. 😊
+In-game mail: @TheWipeGuy
+
+Thank you for using Stickerbook+ and happy collecting![/SIZE]
