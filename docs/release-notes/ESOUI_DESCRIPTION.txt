@@ -1,88 +1,88 @@
 [CENTER][SIZE="6"][b]Stickerbook+[/b][/SIZE][/CENTER]
 [CENTER][SIZE="3"]Stop scrolling past hundreds of things you already own to find the one you don't.[/SIZE][/CENTER]
 
-[SIZE="4"][b]Your Stickerbook knows everything about your collection. It's just really bad at telling you.[/b][/SIZE] [SIZE="3"]Finished a Cyrodiil run and got a new item? Good luck finding that one tiny "new" icon among hundreds you already own. Stickerbook+ ends the scavenger hunt: new and missing entries marked right on the tiles, category trees colored by completion, incomplete entries sorted to the top.[/SIZE]
+[SIZE="3"][b]Your Stickerbook knows everything about your collection. It's just really bad at telling you.[/b] Finished a Cyrodiil run and got a new item? Good luck finding that one tiny "new" icon among hundreds you already own. Stickerbook+ ends the scavenger hunt: new and missing entries marked right on the tiles, category trees colored by completion, incomplete entries sorted to the top.[/SIZE]
 
-Six areas, one fix: Item Sets Book, Outfit Styles, Antiquities Codex, Achievements, Lore Library, and Collections. Every marker, color, and sorting option below is fully configurable and can be toggled per area — see the [b]Settings[/b] section near the bottom. Screenshots and details for each area follow below.
+[SIZE="2"]Six areas, one fix: Item Sets Book, Outfit Styles, Antiquities Codex, Achievements, Lore Library, and Collections. Every marker, color, and sorting option below is fully configurable and can be toggled per area — see the [b]Settings[/b] section near the bottom. Screenshots and details for each area follow below.[/SIZE]
 
-[CENTER][b]Available in 6 languages[/b]
-[IMG]https://flagcdn.com/24x18/gb.png[/IMG] English  ·  [IMG]https://flagcdn.com/24x18/de.png[/IMG] Deutsch  ·  [IMG]https://flagcdn.com/24x18/fr.png[/IMG] Français  ·  [IMG]https://flagcdn.com/24x18/es.png[/IMG] Español  ·  [IMG]https://flagcdn.com/24x18/ru.png[/IMG] Русский  ·  [IMG]https://flagcdn.com/24x18/cn.png[/IMG] 简体中文[/CENTER]
+[CENTER][SIZE="3"][b]Available in 6 languages[/b]
+[IMG]https://flagcdn.com/24x18/gb.png[/IMG] English  ·  [IMG]https://flagcdn.com/24x18/de.png[/IMG] Deutsch  ·  [IMG]https://flagcdn.com/24x18/fr.png[/IMG] Français  ·  [IMG]https://flagcdn.com/24x18/es.png[/IMG] Español  ·  [IMG]https://flagcdn.com/24x18/ru.png[/IMG] Русский  ·  [IMG]https://flagcdn.com/24x18/cn.png[/IMG] 简体中文[/SIZE][/CENTER]
 
 
 [SIZE="5"][b][color=#DAA520]Item Sets Book[/color][/b][/SIZE]
-[IMG]PASTE_IMAGE_1_URL_HERE[/IMG]
-[i]Found the category — now good luck spotting the one new piece in there. And hovering every tile just to clear that tiny "new" icon? Not anymore.[/i]
-[b][color=#DAA520][1][/color][/b] Tree colored by progress — categories turn green once every piece inside is unlocked, with a missing count like "Jolting Arms (1)" the instant something's still out there.
-[b][color=#DAA520][2][/color][/b] New & missing tiles marked — a bright green frame flags a piece you just unlocked; a red background flags one you don't have yet — both configurable, on by default.
-[b][color=#DAA520][3][/color][/b] One-click "Clear New Status" — dismiss every new marker in the current section in one click instead of hovering each tile individually.
-[b][color=#DAA520][4][/color][/b] Set header coloring — set names in the category list are colored by completion status too, not just the tiles.
+[IMG]https://raw.githubusercontent.com/R0ctan/StickerbookPlus/main/docs/assets/sbp_itemsets.jpg[/IMG]
+[SIZE="2"][i]Found the category — now good luck spotting the one new piece in there. And hovering every tile just to clear that tiny "new" icon? Not anymore.[/i][/SIZE]
+[SIZE="2"][b][color=#DAA520][1][/color][/b] Tree colored by progress — categories turn green once every piece inside is unlocked, with a missing count like "Jolting Arms (1)" the instant something's still out there.[/SIZE]
+[SIZE="2"][b][color=#DAA520][2][/color][/b] New & missing tiles marked — a bright green frame flags a piece you just unlocked; a red background flags one you don't have yet — both configurable, on by default.[/SIZE]
+[SIZE="2"][b][color=#DAA520][3][/color][/b] One-click "Clear New Status" — dismiss every new marker in the current section in one click instead of hovering each tile individually.[/SIZE]
+[SIZE="2"][b][color=#DAA520][4][/color][/b] Set header coloring — set names in the category list are colored by completion status too, not just the tiles.[/SIZE]
 
 
 [SIZE="5"][b][color=#DAA520]Antiquities Codex[/color][/b][/SIZE]
-[IMG]PASTE_IMAGE_2_URL_HERE[/IMG]
-[i]Ever dug up a lead only to realize you couldn't tell which fragments you already had? Problem solved.[/i]
-[b][color=#DAA520][1][/color][/b] Tree colored & counted — categories turn green as fragments are found, with counts like "Glenumbra (4/25)". Choose whether coloring is based on Found or Codex progress.
-[b][color=#DAA520][2][/color][/b] Missing entries sorted first — undiscovered antiquities move to the top of the list and get a red overlay, instead of hiding among entries you already found.
-[b][color=#DAA520][3][/color][/b] Missing fragments marked — for multi-piece antiquities, each fragment icon shows individually whether it's still missing.
+[IMG]https://raw.githubusercontent.com/R0ctan/StickerbookPlus/main/docs/assets/sbp_antiquities.jpg[/IMG]
+[SIZE="2"][i]Ever dug up a lead only to realize you couldn't tell which fragments you already had? Problem solved.[/i][/SIZE]
+[SIZE="2"][b][color=#DAA520][1][/color][/b] Tree colored & counted — categories turn green as fragments are found, with counts like "Glenumbra (4/25)". Choose whether coloring is based on Found or Codex progress.[/SIZE]
+[SIZE="2"][b][color=#DAA520][2][/color][/b] Missing entries sorted first — undiscovered antiquities move to the top of the list and get a red overlay, instead of hiding among entries you already found.[/SIZE]
+[SIZE="2"][b][color=#DAA520][3][/color][/b] Missing fragments marked — for multi-piece antiquities, each fragment icon shows individually whether it's still missing.[/SIZE]
 
 
 [SIZE="5"][b][color=#DAA520]Outfit Styles[/color][/b][/SIZE]
-[IMG]PASTE_IMAGE_3_URL_HERE[/IMG]
-[i]Scrolled a wall of identical motif tiles hunting for the one style you don't own yet? Not anymore.[/i]
-[b][color=#DAA520][1][/color][/b] Missing styles sorted first — locked styles jump to the front of the grid and get a red overlay, instead of being scattered between ones you already own.
-[b][color=#DAA520][2][/color][/b] New style highlighted — a bright green frame marks a style you just unlocked, so it doesn't get lost among dozens of others.
-[b][color=#DAA520][3][/color][/b] One-click "Clear New Status" — dismiss every new marker in the current section in one click.
-[b][color=#DAA520][4][/color][/b] Crown Store tag — a small corner symbol marks styles that came from the Crown Store, visible even without hovering.
+[IMG]https://raw.githubusercontent.com/R0ctan/StickerbookPlus/main/docs/assets/sbp_outfitstyles.jpg[/IMG]
+[SIZE="2"][i]Scrolled a wall of identical motif tiles hunting for the one style you don't own yet? Not anymore.[/i][/SIZE]
+[SIZE="2"][b][color=#DAA520][1][/color][/b] Missing styles sorted first — locked styles jump to the front of the grid and get a red overlay, instead of being scattered between ones you already own.[/SIZE]
+[SIZE="2"][b][color=#DAA520][2][/color][/b] New style highlighted — a bright green frame marks a style you just unlocked, so it doesn't get lost among dozens of others.[/SIZE]
+[SIZE="2"][b][color=#DAA520][3][/color][/b] One-click "Clear New Status" — dismiss every new marker in the current section in one click.[/SIZE]
+[SIZE="2"][b][color=#DAA520][4][/color][/b] Crown Store tag — a small corner symbol marks styles that came from the Crown Store, visible even without hovering.[/SIZE]
 
 
 [SIZE="5"][b][color=#DAA520]Achievements[/color][/b][/SIZE]
-[IMG]PASTE_IMAGE_4_URL_HERE[/IMG]
-[i]Hovering over every achievement to figure out which stage of the chain you're on? Now the numbers just show you — no tooltip needed.[/i]
-[b][color=#DAA520][1][/color][/b] Tree colored & counted — zones turn green once every achievement inside is done, grey while still in progress, with a suffix showing missing achievements, missing points, or both.
-[b][color=#DAA520][2][/color][/b] Missing achievements sorted first — incomplete entries move to the top of the list, with a red overlay marking them at a glance.
-[b][color=#DAA520][3][/color][/b] Chain stages colored by progress — for multi-stage achievements, each point value (5 / 10 / 15 …) is colored so you see the current stage without opening the tooltip.
+[IMG]https://raw.githubusercontent.com/R0ctan/StickerbookPlus/main/docs/assets/sbp_achievements.jpg[/IMG]
+[SIZE="2"][i]Hovering over every achievement to figure out which stage of the chain you're on? Now the numbers just show you — no tooltip needed.[/i][/SIZE]
+[SIZE="2"][b][color=#DAA520][1][/color][/b] Tree colored & counted — zones turn green once every achievement inside is done, grey while still in progress, with a suffix showing missing achievements, missing points, or both.[/SIZE]
+[SIZE="2"][b][color=#DAA520][2][/color][/b] Missing achievements sorted first — incomplete entries move to the top of the list, with a red overlay marking them at a glance.[/SIZE]
+[SIZE="2"][b][color=#DAA520][3][/color][/b] Chain stages colored by progress — for multi-stage achievements, each point value (5 / 10 / 15 …) is colored so you see the current stage without opening the tooltip.[/SIZE]
 
 
 [SIZE="5"][b][color=#DAA520]Lore Library[/color][/b][/SIZE]
-[IMG]PASTE_IMAGE_5_URL_HERE[/IMG]
-[i]300 books read, and still no clue which shelf holds the ones you're missing? Read on.[/i]
-[b][color=#DAA520][1][/color][/b] Collections colored & counted — every collection turns green once fully read, with a missing count right in the tree, like "Crafting Books (1)".
-[b][color=#DAA520][2][/color][/b] Total missing counter — the overview at the top adds a running "(196 missing)" total across your entire library.
-[b][color=#DAA520][3][/color][/b] Missing books sorted first — unread books move to the top with a red overlay, so you don't have to scroll past hundreds of books you've already read.
+[IMG]https://raw.githubusercontent.com/R0ctan/StickerbookPlus/main/docs/assets/sbp_lorelibrary.jpg[/IMG]
+[SIZE="2"][i]300 books read, and still no clue which shelf holds the ones you're missing? Read on.[/i][/SIZE]
+[SIZE="2"][b][color=#DAA520][1][/color][/b] Collections colored & counted — every collection turns green once fully read, with a missing count right in the tree, like "Crafting Books (1)".[/SIZE]
+[SIZE="2"][b][color=#DAA520][2][/color][/b] Total missing counter — the overview at the top adds a running "(196 missing)" total across your entire library.[/SIZE]
+[SIZE="2"][b][color=#DAA520][3][/color][/b] Missing books sorted first — unread books move to the top with a red overlay, so you don't have to scroll past hundreds of books you've already read.[/SIZE]
 
 
 [SIZE="5"][b][color=#DAA520]Collections[/color][/b][/SIZE]
-[IMG]PASTE_IMAGE_6_URL_HERE[/IMG]
-[i]Ever stared at a page of pets wondering which ones you actually own? Wonder no more.[/i]
-[b][color=#DAA520][1][/color][/b] Tree colored & counted — collections turn green once complete, with a missing count for the rest, like "Onyx Indrik (2)".
-[b][color=#DAA520][2][/color][/b] Missing items marked — a red overlay flags collectibles you haven't unlocked yet, right on the tile.
+[IMG]https://raw.githubusercontent.com/R0ctan/StickerbookPlus/main/docs/assets/sbp_collections.jpg[/IMG]
+[SIZE="2"][i]Ever stared at a page of pets wondering which ones you actually own? Wonder no more.[/i][/SIZE]
+[SIZE="2"][b][color=#DAA520][1][/color][/b] Tree colored & counted — collections turn green once complete, with a missing count for the rest, like "Onyx Indrik (2)".[/SIZE]
+[SIZE="2"][b][color=#DAA520][2][/color][/b] Missing items marked — a red overlay flags collectibles you haven't unlocked yet, right on the tile.[/SIZE]
 
 
 [SIZE="5"][b][color=#DAA520]Settings[/color][/b][/SIZE]
-[IMG]PASTE_IMAGE_7_URL_HERE[/IMG]
-[b][color=#DAA520][1][/color][/b] Active Areas — turn Stickerbook+ on or off per area (Item Sets, Outfit Styles, Collections, Lore Library, Achievements, Antiquities), independent of each other.
-[b][color=#DAA520][2][/color][/b] New Marker — customize the border and background color, thickness, and whether ESO's native "new" icon is hidden.
-[b][color=#DAA520][3][/color][/b] Missing Marker — customize the background color for missing items, and choose per area whether it's shown at all.
-[b][color=#DAA520][4][/color][/b] Tree: Coloring & Counting per Area — per-area switches for tree coloring and missing-count suffixes (categories, subcategories, chain stages, and more).
-[b][color=#DAA520][5][/color][/b] Tree: Color Levels — set the four shared colors used everywhere: complete, partial, missing, and selected.
-[b][color=#DAA520][6][/color][/b] Sorting — toggle "missing first" sorting independently for each of the five supported areas.
-[b][color=#DAA520][7][/color][/b] Dismiss Markers — show or hide the "Clear New Status" button, and pick its label text.
-[b][color=#DAA520][8][/color][/b] Advanced — chat messages, internal ID display in tooltips, and Crown Store tag settings.
-[b][color=#DAA520][9][/color][/b] Long entry names — tree entries that don't fit are truncated with a tooltip instead of wrapping or overflowing.
+[IMG]https://raw.githubusercontent.com/R0ctan/StickerbookPlus/main/docs/assets/sbp_settings.jpg[/IMG]
+[SIZE="2"][b][color=#DAA520][1][/color][/b] Active Areas — turn Stickerbook+ on or off per area (Item Sets, Outfit Styles, Collections, Lore Library, Achievements, Antiquities), independent of each other.[/SIZE]
+[SIZE="2"][b][color=#DAA520][2][/color][/b] New Marker — customize the border and background color, thickness, and whether ESO's native "new" icon is hidden.[/SIZE]
+[SIZE="2"][b][color=#DAA520][3][/color][/b] Missing Marker — customize the background color for missing items, and choose per area whether it's shown at all.[/SIZE]
+[SIZE="2"][b][color=#DAA520][4][/color][/b] Tree: Coloring & Counting per Area — per-area switches for tree coloring and missing-count suffixes (categories, subcategories, chain stages, and more).[/SIZE]
+[SIZE="2"][b][color=#DAA520][5][/color][/b] Tree: Color Levels — set the four shared colors used everywhere: complete, partial, missing, and selected.[/SIZE]
+[SIZE="2"][b][color=#DAA520][6][/color][/b] Sorting — toggle "missing first" sorting independently for each of the five supported areas.[/SIZE]
+[SIZE="2"][b][color=#DAA520][7][/color][/b] Dismiss Markers — show or hide the "Clear New Status" button, and pick its label text.[/SIZE]
+[SIZE="2"][b][color=#DAA520][8][/color][/b] Advanced — chat messages, internal ID display in tooltips, and Crown Store tag settings.[/SIZE]
+[SIZE="2"][b][color=#DAA520][9][/color][/b] Long entry names — tree entries that don't fit are truncated with a tooltip instead of wrapping or overflowing.[/SIZE]
 
 [b]Slash command[/b]
-/sbp
+[SIZE="2"]/sbp
 - /sbp on — enable the addon
 - /sbp off — disable the addon
 - /sbp test item [itemId] — mark a specific Item Sets piece as new for testing
 - /sbp test style [collectibleId] — mark a specific Outfit Style as new for testing
-- /sbp test collection [collectibleId] — mark a specific Collections item as new for testing
+- /sbp test collection [collectibleId] — mark a specific Collections item as new for testing[/SIZE]
 
 [b]Required library[/b]
-- LibAddonMenu-2.0 r43 or newer
+[SIZE="2"]- LibAddonMenu-2.0 r43 or newer[/SIZE]
 
 [b]Author[/b]
-R0ctan
+[SIZE="2"]R0ctan[/SIZE]
 
 [b]Credits[/b]
-AI-assisted development by Auralith AI
+[SIZE="2"]AI-assisted development by Auralith AI[/SIZE]
